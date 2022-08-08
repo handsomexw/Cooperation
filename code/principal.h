@@ -1,7 +1,7 @@
 #ifndef PRINCIPAL_H
 #define PRINCIPAL_H
 
-extern char G_pri_sec[12];
+extern char G_pri_sec[50];
 void main_principal(void);
 
 int find_teacher(int id);

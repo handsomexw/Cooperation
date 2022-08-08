@@ -6,7 +6,7 @@ typedef struct Teacher{
 	char sex;
 	int id;
 	char secret[12];
-	int flag;
+	int flag;//0-2表示输入错误了多少次，存档，三次锁定
 }Teacher;
 
 
